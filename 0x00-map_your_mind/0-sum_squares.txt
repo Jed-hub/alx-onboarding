@@ -1,13 +1,13 @@
 BEGIN
 
-Write "Please enter 2 numbers"
-Read num1, num2
+WRITE "Please enter 2 numbers"
+READ num1, num2
 
-Set sqr1 to (num1*num1)
-Set sqr2 to (num2*num2)
+SET sqr1 to (num1*num1)
+SET sqr2 to (num2*num2)
 
-Set sum to (sqr1+sqr2)
+SET sum to (sqr1+sqr2)
 
-Write (sum)
+WRITE (sum)
 
 END
