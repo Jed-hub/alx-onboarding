@@ -1,0 +1,15 @@
+BEGIN
+
+WRITE "Please enter a number"
+READ num
+
+SET sum to 0
+
+WHILE(num >= 0)
+  SET sum to num + sum
+
+  READ sum
+
+WRITE sum
+
+END
